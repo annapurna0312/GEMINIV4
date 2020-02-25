@@ -1,0 +1,201 @@
+<resources>
+    <string name="app_name">ಜೆಮಿನಿ</string>
+    <string name="incois_title">ಇಂಡಿಯನ್ ನ್ಯಾಷನಲ್  ಸೆಂಟರ್  ಫಾರ್  ಓಷನ್  ಇನ್ಫಾರ್ಮಶನ್  ಸರ್ವಿಸಸ್ </string>
+    <string name="action_settings">ಸೆಟ್ಟಿಂಗ್ಸ್ </string>
+    <string-array name="language_array">
+        <item>English</item>
+        <item>हिंदी</item>
+        <item>ગુજરાતી</item>
+        <item>मराठी</item>
+        <item>ಕನ್ನಡ </item>
+        <item>മലയാളം</item>
+        <item>தமிழ்</item>
+        <item>తెలుగు</item>
+        <item>ଓଡ଼ିଆ</item>
+        <item>বাঙ্গালী</item>
+    </string-array>
+    <string-array name="region_array">
+        <item>ಗುಜರಾತ್</item>
+        <item>ಮಹಾರಾಷ್ಟ್ರ </item>
+        <item> ಗೋವಾ </item>
+        <item>ಕರ್ನಾಟಕ </item>
+        <item>ಕೇರಳ </item>
+        <item>ದಕ್ಷಿಣ ತಮಿಳುನಾಡು</item>
+        <item>ಉತ್ತರ ತಮಿಳುನಾಡು   </item>
+        <item>ದಕ್ಷಿಣ ಆಂಧ್ರ ಪ್ರದೇಶ</item>
+        <item>ಉತ್ತರ ಆಂಧ್ರ ಪ್ರದೇಶ</item>
+        <item>ಒರಿಸ್ಸಾ</item>
+        <item>ಪಶ್ಚಿಮ ಬಂಗಾಳ</item>
+        <item>ಅಂಡಮಾನ್</item>
+        <item>ನಿಕೋಬಾರ್</item>
+        <item>ಲಕ್ಷದ್ವೀಪ</item>
+        <item>ಈಸ್ಟ್ ಕೋಸ್ಟ್</item>
+        <item>ಪಶ್ಚಿಮ ಕರಾವಳಿಯ</item>
+        <item>ಅಖಿಲ ಭಾರತ</item>
+    </string-array>
+    <string name="kilometers">ಕಿಲೋಮೀಟರ್</string>
+    <string name="NM">ನ್ ಮ್ </string>
+    <string name="kms">ಕೆ ಮ್ ಸ್ </string>
+    <string name="Meters">ಮೀಟರ್ಸ್</string>
+    <string name="m">ಮ್ </string>
+    <string name="Feet">ಅಡಿ</string>
+    <string name="Kmph">ಗಂಟೆಗೆ ಕಿಲೋಮೀಟರ್</string>
+    <string name="Cmph">ಗಂಟೆಗೆ ಸೆಂಟಿಮೀಟರ್ಗಳು</string>
+    <string name="Potential_Fishing_Zone"><u>ಸಂಭಾವ್ಯ ಮೀನುಗಾರಿಕೆ ವಲಯ</u></string>
+    <string name="High_Wave_Alert"><u>ಎತ್ತರದ ಅಲೆ ಜಾಗರೂಕರಾಗಿರಿ</u></string>
+    <string name="High_Wave_warning"><u>ಎತ್ತರದ ಅಲೆ ಎಚ್ಚರಿಕೆ</u></string>
+    <string name="tsunami_alert"><u>ಸುನಾಮಿ ಆರಂಭಿಕ ಎಚ್ಚರಿಕೆ</u></string>
+    <string name="cyclone_warning"><u>ಚಂಡಮಾರುತದ ಎಚ್ಚರಿಕೆ</u></string>
+    <string name="cardview_cyclone_title"><u>ಚಂಡಮಾರುತದ ಎಚ್ಚರಿಕೆ</u></string>
+    <string name="strong_wind_alert">ಬಲವಾದ ಗಾಳಿ ಎಚ್ಚರಿಕೆ</string>
+    <string name="market_information">ಮೀನು ಮಾರುಕಟ್ಟೆಯ ಮಾಹಿತಿ</string>
+
+    <string name="date">ಡೇಟ್ </string>
+    <string name="region">ರೀಜನ </string>
+    <string name="expiry">ಎಸ್ಪಿಐರಿ </string>
+    <string name="pfz_locations">ಪಿ ಫ್ ಝೆಡ್  ಲೊಕೇಷನ್ಸ್ </string>
+    <string name="reach_to_the_nearest_pfz_location">ಡೀಟೇಲ್ಸ್  ಆ   ನೆರೆಸ್ಟ್  ಪಿ ಫ್ ಝೆಡ್  ಲೊಕೇಶನ್ </string>
+    <string name="reach_to_the_nearest_tuna_location">ರೀಚ್  ಟು  ನೆರೆಸ್ಟ್  ಟುನ  ಲೊಕೇಶನ್ </string>
+    <string name="pfz_distance_header"><u>ಡಿಸ್ಟೆನ್ಸ್ </u></string>
+    <string name="pfz_angle_header"><u>ಆಂಗಲ್ </u></string>
+    <string name="pfz_depth_header"><u>ಓಷನ್  ಡೆಪ್ತ್ </u></string>
+    <string name="tsunami_advice">ಕಿಂಡ್ಲ್ಯ್  ಸ್ಟೇ  ಅವೇ  ಫ್ರಮ್  ಕೋಸ್ಟ್ . ಮೂವ್  ಟು  ಹೈಯರ್  ಗ್ರೌಂಡ್ಸ್ </string>
+    <string name="cyclone_category">ಸೈಕ್ಲೋನ್  ಕೆಟಗರಿ  </string>
+    <string name="cyclone_name">ಸೈಕ್ಲೋನ್  ನೇಮ್  </string>
+    <string name="cyclone_location">ಸೈಕ್ಲೋನ್  ಲೊಕೇಶನ್ </string>
+    <string name="pfz_drawer_title">ಸಂಭಾವ್ಯ ಮೀನುಗಾರಿಕೆ ವಲಯ</string>
+    <string name="osf_drawer_title">ಸಾಗರ ಸ್ಥಿತಿ ಮುನ್ಸೂಚನೆ</string>
+    <string name="cyclone_drawer_title">ಸೈಕ್ಲೋನ್ ಎಚ್ಚರಿಕೆ</string>
+    <string name="tsunami_drawer_title">ಸುನಾಮಿ ಆರಂಭಿಕ ಎಚ್ಚರಿಕೆ</string>
+    <string name="data_source_usb">ಉ ಸ್ ಬಿ </string>
+    <string name="data_source_bluetooth">ಬ್ಲೂಟೂತ್ </string>
+    <string name="data_connection_source">ಕನೆಕ್ಷನ್  ಸೊರ್ಸ್ </string>
+    <string name="current_location"><u>ಕರೆಂಟ್  ಲೊಕೇಶನ್ </u></string>
+    <string name="current_location_value"></string>
+    <string name="current_intl_location"><u>ಇಂಟರ್ನ್ಯಾಷನಲ್  ಬೌಂಡರಿ </u></string>
+    <string name="datastatus">ರೆಸಲಿವಿಂಗ್  ಡೇಟಾ </string>
+    <string name="constatus">ಸಟೆಲ್ಲಿಟ್ಸ್  ಕನೆಕ್ಟೆಡ್  </string>
+    <string name="wave_height_nwave_direction"><u>ವೇವ  ಹೇಯ್ಗ್ತ್  \n ವೇವ  ಡೈರೆಕ್ಷನ್ </u></string>
+    <string name="current_speed_ncurrent_direction"><u>ಕರೆಂಟ್  ಸ್ಪೀಡ್ \n ಕರೆಂಟ್  ಡೈರೆಕ್ಷನ್ </u></string>
+    <string name="wind_speed_nwind_direction"><u>ವಿಂಡ್  ಸ್ಪೀಡ್  \n ವಿಂಡ್  ಡೈರೆಕ್ಷನ್ </u></string>
+    <string name="earthquake_location">ಅರ್ತಿಕ್ವಾಕೆ  ಲೊಕೇಶನ್  </string>
+    <string name="earthquake_intensity">ಅರ್ತಿಕ್ವಾಕೆ  ಇಂಟೆನ್ಸಿಟಿ </string>
+    <string name="earthquake_origintime">ಅರ್ತಿಕ್ವಾಕೆ  ಆರಿಜಿನ್ ಟೈಮ್ </string>
+    <string name="earthquake_depth">ಅರ್ತಿಕ್ವಾಕೆ  ಡೆಪ್ತ್   </string>
+    <string name="earthquake_region">ಅರ್ತಿಕ್ವಾಕೆ  ರೀಜನ  </string>
+    <string name="identified_at">ಐಡೆಂಟಿಫೈಡ್  ಅಟ್  </string>
+    <string name="maximum_current_speed">ಮ್ಯಾಕ್ಸಿಮಮ್  ಕರೆಂಟ್  ಸ್ಪೀಡ್  </string>
+    <string name="maximum_wave_height">ಮ್ಯಾಕ್ಸಿಮಮ್  ವೇವ  ಹೇಯ್ಗ್ತ್  </string>
+    <string name="maximum_wind_speed">ಮ್ಯಾಕ್ಸಿಮಮ್  ವಿಂಡ್  ಸ್ಪೀಡ್  </string>
+    <string name="international_boundary_outside">ಔಟ್ಸೈಡ್ </string>
+    <string name="international_boundary_inside">ಇನ್ಸೈಡ್ </string>
+    <string name="view_details">ವ್ಯೂ  ಡೀಟೇಲ್ಸ್ </string>
+    <string name="home">ಹೋಂ </string>
+    <string name="select_language">ಸೆಲೆಕ್ಟ್  ಲ್ಯಾಂಗ್ವೇಜ್ </string>
+    <string name="select_regions">ಸೆಲೆಕ್ಟ್  ರೇಗಿಒಂಸ್ </string>
+    <string name="feed_back">ಫೀಡ್  ಬ್ಯಾಕ್ </string>
+    <string name="view_on_map">ವ್ಯೂ  ಆನ್  ಮ್ಯಾಪ್ </string>
+    <string name="start_journey">ಸ್ಟಾರ್ಟ್  ಜರ್ನಿ </string>
+    <string name="click_to_connect_to_navshare">GEMINI ಡಿವೈಸ್ ಕನೆಕ್ಟ್ ಮಾಡಿ</string>
+    <string name="please_connect_to_device">Please Connect to Device</string>
+    <string name="help">ಸಹಾಯ</string>
+    <string name="report_naccident">ಅಪಘಾತ ಚಿತ್ರ</string>
+    <string name="navigation">Navigation</string>
+    <string name="Navigate_To_Specific_Location">Navigate To Specific Location</string>
+    <string name="Hint_Navigate_To_Specific_Location">Kindly Enter the Latitude and Longitude in Decimal (for example 9.1056,66.5443)</string>
+    <string name="read_more">ಓದು</string>
+    <string name="tablayout_messages_heading">ಸಮಾಚಾರ</string>
+    <string name="tablayout_compass_heading">ಕಂಪಾಸ್</string>
+    <string name="tablayout_gps_heading">ಜೀ ಪೀ ಸ್</string>
+
+
+    <string name="n">ಉತ್ತರ</string>
+    <string name="nne">ಉತ್ತರ ಈಶಾನ್ಯ</string>
+    <string name="ne">ಈಶಾನ್ಯ</string>
+    <string name="ene">ಪೂರ್ವ ಈಶಾನ್ಯ</string>
+    <string name="e">ಪೂರ್ವ</string>
+    <string name="ese">ಪೂರ್ವ ಆಗ್ನೇಯ</string>
+    <string name="se">ಆಗ್ನೇಯ</string>
+    <string name="sse">ದಕ್ಷಿಣ ಆಗ್ನೇಯ</string>
+    <string name="s">ದಕ್ಷಿಣ</string>
+    <string name="ssw">ದಕ್ಷಿಣ ನೈರುತ್ಯ</string>
+    <string name="sw">ನೈರುತ್ಯ</string>
+    <string name="wsw">ಪಶ್ಚಿಮ ನೈರುತ್ಯ</string>
+    <string name="w">ಪಶ್ಚಿಮ</string>
+    <string name="wnw">ಪಶ್ಚಿಮ ವಾಯುವ್ಯ</string>
+    <string name="nw">ವಾಯುವ್ಯ</string>
+    <string name="nnw">ಉತ್ತರ ವಾಯುವ್ಯ</string>
+
+    <string name="select_market_to_see_fish_prices"><u>ಮೀನು ಬೆಲೆಗಳನ್ನು ವೀಕ್ಷಿಸಲು ಮಾರುಕಟ್ಟೆ ಆಯ್ಕೆಮಾಡಿ</u></string>
+    <string name="cost_per_kg">ಕೆಜಿಗೆ ವೆಚ್ಚ</string>
+    <string name="fish_type">ಮೀನು ಪ್ರಕಾರ</string>
+    <string name="emergency_contact_numbers">ತುರ್ತು ಸಂಪರ್ಕ ಸಂಖ್ಯೆಗಳು</string>
+    <string name="police">ಪೊಲೀಸ್ :</string>
+    <string name="ambulance">ಆಂಬ್ಯುಲೆನ್ಸ್ :</string>
+
+
+
+    <string name="hours">ಗಂಟೆಗಳು</string>
+    <string name="speed"><u>ವೇಗ</u></string>
+    <string name="estimated_time"><u>ಅಂದಾಜು ಸಮಯ</u></string>
+
+
+
+    <!--cyclone names-->
+    <string name="Vayu">ವಾಯು</string>
+    <string name="Hikaa">ಹಿಕಾ</string>
+    <string name="Kyarr">ಕ್ಯಾರ್</string>
+    <string name="Maha">ಮಹಾ</string>
+    <string name="Bulbul">ಬುಲ್ಬುಲ್</string>
+    <string name="Pawan">ಪವನ್</string>
+    <string name="Amphan">ಅಂಫನ</string>
+
+
+
+    <string name="nearest_landpoint">ಹತ್ತಿರದ ಹೆಗ್ಗುರುತು</string>
+    <string name="you_are_here"><u>ನೀವು ಇಲ್ಲಿದ್ದೀರಿ</u></string>
+    <string name="cyclone_advice">ತಕ್ಷಣ ಹಿಂತಿರುಗಿ</string>
+    <string name="cyclone_short">ಚಂಡಮಾರುತ</string>
+    <string name="tsunami_short">ಸುನಾಮಿ</string>
+    <string name="high_wave_short">ಹೆಚ್ಚಿನ ಅಲೆಗಳು</string>
+    <string name="fishing_short">ಮೀನುಗಾರಿಕೆ</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="boat_size">Boat Size</string>
+    <string name="crew_size">Crew Size</string>
+    <string name="general_public">General Public</string>
+    <string name="fishermen">Fishermen</string>
+    <string name="advanced">Advanced</string>
+    <string name="create_account">Create Account</string>
+    <string name="phone_number">phone number</string>
+    <string name="invalid_name">invalid name</string>
+    <string name="invalid_email">invalid email id</string>
+    <string name="invalid_phone">invalid phone number</string>
+    <string name="proceed_without_registration">Proceed Without Registration</string>
+    <string name="international_waters" translatable="false">International</string>
+    <string name="bangladesh_waters">Bangladesh</string>
+    <string name="pakistan_waters">Pakistan</string>
+    <string name="srilanka_waters">Srilanka</string>
+    <string name="bt_not_enabled_leaving">bt_not_enabled_leaving</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="camera">Accident Picture</string>
+    <string name="centimeters_per_sec">centimeters per second</string>
+    <string name="close">Close</string>
+    <string name="cmps">cmps</string>
+    <string name="connect">Connect a device</string>
+    <string name="gujrati">"ગુજરાતી "</string>
+    <string name="hindi">"हिंदी  "</string>
+    <string name="latitude"><u>Latitude</u></string>
+    <string name="longitude"><u>Longitude</u></string>
+    <string name="malayalam">മലയാളം</string>
+    <string name="marathi">"मराठी  "</string>
+    <string name="markdangerzone">Mark Location as Danger Zone</string>
+    <string name="markrockybottom">Mark Location as Rocky Bottom</string>
+    <string name="tamil">"தமிழ்  "</string>
+    <string name="update_password">Save Route</string>
+    <string name="usecurrentlatlon">Use Present Latitude &amp; Longitude</string>
+    <string name="yes">yes</string>
+
+
+</resources>

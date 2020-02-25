@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LanguageSelectionActivity"
+    android:background="@drawable/background_ocean"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_marginTop="36dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_g_translate_black_24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose your language"
+            style="@style/TextAppearance.MaterialComponents.Headline6"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:paddingTop="@dimen/min_padding">
+
+            <Button
+                android:id="@+id/en"
+                android:layout_width="@dimen/lang_button_width"
+                android:layout_height="wrap_content"
+                style="@style/Button"
+                android:text="@string/english"/>
+
+            <Button
+                android:id="@+id/gj"
+                android:layout_width="@dimen/lang_button_width"
+                android:layout_height="wrap_content"
+                style="@style/Button"
+                android:text="@string/gujrati"/>
+
+            <Button
+                android:id="@+id/or"
+                android:layout_width="@dimen/lang_button_width"
+                android:layout_height="wrap_content"
+                style="@style/Button"
+                android:text="@string/odiya"/>
+
+            <Button
+                android:id="@+id/ka"
+                android:layout_width="@dimen/lang_button_width"
+                android:layout_height="wrap_content"
+                style="@style/Button"
+                android:text="@string/kannada"/>
+
+            <Button
+                android:id="@+id/ta"
+                android:layout_width="@dimen/lang_button_width"
+                android:layout_height="wrap_content"
+                style="@style/Button"
+                android:text="@string/tamil"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:paddingTop="@dimen/min_padding">
+
+            <Button
+                android:id="@+id/hi"
+                android:layout_width="@dimen/lang_button_width"
+                android:layout_height="wrap_content"
+                style="@style/Button"
+                android:text="@string/hindi"/>
+
+            <Button
+                android:id="@+id/mr"
+                android:layout_width="@dimen/lang_button_width"
+                android:layout_height="wrap_content"
+                style="@style/Button"
+                android:text="@string/marathi"/>
+
+            <Button
+                android:id="@+id/ml"
+                android:layout_width="@dimen/lang_button_width"
+                android:layout_height="wrap_content"
+                style="@style/Button"
+                android:text="@string/malayalam"/>
+
+            <Button
+                android:id="@+id/te"
+                android:layout_width="@dimen/lang_button_width"
+                android:layout_height="wrap_content"
+                style="@style/Button"
+                android:text="@string/telugu"/>
+
+            <Button
+                android:id="@+id/bn"
+                android:layout_width="@dimen/lang_button_width"
+                android:layout_height="wrap_content"
+                style="@style/Button"
+                android:text="@string/bengali"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fabFrame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:id="@+id/layoutFabPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="120dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="@dimen/cardCornerRadius"
+            app:cardElevation="@dimen/cardElevation"
+            app:cardUseCompatPadding="true" >
+
+            <TextView
+                android:id="@+id/cvtPhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/camera"
+                android:textStyle="bold"
+                android:paddingRight="@dimen/cardview_horizontal_padding"
+                android:paddingLeft="@dimen/cardview_horizontal_padding"
+                android:paddingBottom="@dimen/cardview_vertical_padding"
+                android:paddingTop="@dimen/cardview_vertical_padding" />
+
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_camera_alt_black_24dp"
+            app:backgroundTint="@android:color/holo_red_dark"
+            app:fabSize="mini" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layoutFabSavePFZLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="220dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="@dimen/cardCornerRadius"
+            app:cardElevation="@dimen/cardElevation"
+            app:cardUseCompatPadding="true" >
+            <TextView
+                android:id="@+id/cvtSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold"
+                android:paddingRight="@dimen/cardview_horizontal_padding"
+                android:paddingLeft="@dimen/cardview_horizontal_padding"
+                android:paddingBottom="@dimen/cardview_vertical_padding"
+                android:paddingTop="@dimen/cardview_vertical_padding" />
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_save_black_24dp"
+            app:backgroundTint="@android:color/holo_green_light"
+            app:fabSize="mini" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutFabEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="170dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="@dimen/cardCornerRadius"
+            app:cardElevation="@dimen/cardElevation"
+            app:cardUseCompatPadding="true" >
+
+            <TextView
+                android:id="@+id/cvtEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/update_password"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold"
+                android:paddingRight="@dimen/cardview_horizontal_padding"
+                android:paddingLeft="@dimen/cardview_horizontal_padding"
+                android:paddingBottom="@dimen/cardview_vertical_padding"
+                android:paddingTop="@dimen/cardview_vertical_padding" />
+
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_create_black_24dp"
+            app:backgroundTint="@android:color/holo_green_light"
+            app:fabSize="mini" />
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/layoutFabMarkRockyBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="270dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="@dimen/cardCornerRadius"
+            app:cardElevation="@dimen/cardElevation"
+            app:cardUseCompatPadding="true" >
+
+            <TextView
+                android:id="@+id/rockyBottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/markrockybottom"
+                android:textStyle="bold"
+                android:paddingRight="@dimen/cardview_horizontal_padding"
+                android:paddingLeft="@dimen/cardview_horizontal_padding"
+                android:paddingBottom="@dimen/cardview_vertical_padding"
+                android:paddingTop="@dimen/cardview_vertical_padding" />
+
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/markRockyBottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rock"
+            app:backgroundTint="@android:color/holo_red_dark"
+            app:fabSize="mini" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layoutFabSunkenShip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="320dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="@dimen/cardCornerRadius"
+            app:cardElevation="@dimen/cardElevation"
+            app:cardUseCompatPadding="true" >
+
+            <TextView
+                android:id="@+id/sunkenship"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/sunkenship"
+                android:textStyle="bold"
+                android:paddingRight="@dimen/cardview_horizontal_padding"
+                android:paddingLeft="@dimen/cardview_horizontal_padding"
+                android:paddingBottom="@dimen/cardview_vertical_padding"
+                android:paddingTop="@dimen/cardview_vertical_padding" />
+
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/markSunkenShip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sunken_ship"
+            app:backgroundTint="@android:color/holo_red_dark"
+            app:fabSize="mini" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutFabDangerZone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="370dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="@dimen/cardCornerRadius"
+            app:cardElevation="@dimen/cardElevation"
+            app:cardUseCompatPadding="true" >
+
+            <TextView
+                android:id="@+id/dangerZone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/markdangerzone"
+                android:textStyle="bold"
+                android:paddingRight="@dimen/cardview_horizontal_padding"
+                android:paddingLeft="@dimen/cardview_horizontal_padding"
+                android:paddingBottom="@dimen/cardview_vertical_padding"
+                android:paddingTop="@dimen/cardview_vertical_padding" />
+
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/markDangerZone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_warning_black_24dp"
+            app:backgroundTint="@android:color/holo_red_dark"
+            app:fabSize="mini" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/layoutFabSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:src="@drawable/ic_settings_black_24dp"
+            app:backgroundTint="@android:color/holo_red_dark"
+            app:fabSize="normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutFabSOS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabSos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:src="@drawable/ic_sos"
+            app:backgroundTint="@color/colorAccent"
+            app:fabSize="normal" />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/layoutOverPFZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_gravity="bottom|left"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="230dp"
+        android:orientation="horizontal">
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/showPFZButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/cardview_horizontal_padding"
+            android:src="@drawable/fish"
+            app:backgroundTint="@android:color/holo_green_light"
+            app:fabSize="mini" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="@dimen/cardCornerRadius"
+            app:cardElevation="@dimen/cardElevation"
+            app:cardUseCompatPadding="true" >
+
+            <TextView
+                android:id="@+id/showpfz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/showpfz"
+                android:textStyle="bold"
+                android:paddingRight="@dimen/cardview_horizontal_padding"
+                android:paddingLeft="@dimen/cardview_horizontal_padding"
+                android:paddingBottom="@dimen/cardview_vertical_padding"
+                android:paddingTop="@dimen/cardview_vertical_padding" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layoutOverlayRockyBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_gravity="bottom|left"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="170dp"
+        android:orientation="horizontal">
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/showRockyBottomButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/cardview_horizontal_padding"
+            android:src="@drawable/rock"
+            app:backgroundTint="@android:color/holo_red_dark"
+            app:fabSize="mini" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="@dimen/cardCornerRadius"
+            app:cardElevation="@dimen/cardElevation"
+            app:cardUseCompatPadding="true" >
+
+            <TextView
+                android:id="@+id/showrockybottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/showrockybottom"
+                android:textStyle="bold"
+                android:paddingRight="@dimen/cardview_horizontal_padding"
+                android:paddingLeft="@dimen/cardview_horizontal_padding"
+                android:paddingBottom="@dimen/cardview_vertical_padding"
+                android:paddingTop="@dimen/cardview_vertical_padding" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutOverlaySunkenShips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_gravity="bottom|left"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="120dp"
+        android:orientation="horizontal">
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/showsunkenshipsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/cardview_horizontal_padding"
+            android:src="@drawable/sunken_ship"
+            app:backgroundTint="@android:color/holo_red_dark"
+            app:fabSize="mini" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="@dimen/cardCornerRadius"
+            app:cardElevation="@dimen/cardElevation"
+            app:cardUseCompatPadding="true" >
+
+            <TextView
+                android:id="@+id/showsunkenships"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/showsunkenships"
+                android:textStyle="bold"
+                android:paddingRight="@dimen/cardview_horizontal_padding"
+                android:paddingLeft="@dimen/cardview_horizontal_padding"
+                android:paddingBottom="@dimen/cardview_vertical_padding"
+                android:paddingTop="@dimen/cardview_vertical_padding" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layoutFabOverlays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabOverlays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:src="@drawable/ic_layers"
+            app:backgroundTint="@color/colorAccent"
+            app:fabSize="normal" />
+
+    </LinearLayout>
+
+    <!--android:src="@drawable/ic_close_black_24dp"-->
+</FrameLayout>

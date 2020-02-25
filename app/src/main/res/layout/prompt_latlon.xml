@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/cardview_dark_background"
+    android:padding="10dp" >
+
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/Widget.MaterialComponents.CardView"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        android:outlineSpotShadowColor="@color/design_default_color_primary"
+        android:elevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/min_padding"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/lat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Latitude : "
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/min_padding">
+                    <TableRow>
+
+                        <EditText
+                            android:id="@+id/latDD"
+                            android:inputType="number"
+                            android:layout_weight="2"
+                            android:textAlignment="center"
+                            android:hint="Lat"
+                            android:textColor="@android:color/holo_green_dark"
+                            android:textStyle="bold">
+                        </EditText>
+
+                        <!--<EditText
+                            android:id="@+id/latMM"
+                            android:layout_weight="4"
+                            android:textAlignment="center"
+                            android:hint="MM.SS"
+                            android:textColor="@android:color/holo_green_dark"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/latDir"
+                            android:layout_weight="2"
+                            android:textAlignment="center"
+                            android:hint="N"
+                            android:text="N"
+                            android:textColor="@android:color/holo_green_dark"
+                            android:textStyle="bold">
+                        </EditText>-->
+
+                    </TableRow>
+                </TableLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/min_padding"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/lon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Longitude : "
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/min_padding">
+                    <TableRow>
+
+                        <EditText
+                            android:id="@+id/lonDD"
+                            android:inputType="number"
+                            android:layout_weight="2"
+                            android:textAlignment="center"
+                            android:hint="Lon"
+                            android:textColor="@android:color/holo_green_dark"
+                            android:textStyle="bold">
+                        </EditText>
+<!--
+                        <EditText
+                            android:id="@+id/lonMM"
+                            android:layout_weight="4"
+                            android:textAlignment="center"
+                            android:hint="MM.SS"
+                            android:textColor="@android:color/holo_green_dark"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/lonDir"
+                            android:layout_weight="2"
+                            android:textAlignment="center"
+                            android:hint="N"
+                            android:text="N"
+                            android:textColor="@android:color/holo_green_dark"
+                            android:textStyle="bold">
+                        </EditText>-->
+
+                    </TableRow>
+                </TableLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/usepresentlatlon_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="52dp"
+                android:padding="@dimen/min_padding"
+                >
+
+                <Button
+                    android:id="@+id/usepresentlatlon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/usecurrentlatlon"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+</LinearLayout>

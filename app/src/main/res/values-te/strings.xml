@@ -1,0 +1,233 @@
+<resources>
+    <string name="app_name">\u0c07\u0c28\u0c4d \u0c15\u0c3e\u0c2f\u0c3f\u0c38\u0c4d</string>
+    <string name="incois_title">\u0c2d\u0c3e\u0c30\u0c24\u0c40\u0c2f \u0c1c\u0c3e\u0c24\u0c40\u0c2f \u0c2e\u0c39\u0c3e \u0c38\u0c2e\u0c41\u0c26\u0c4d\u0c30 \u0c38\u0c2e\u0c3e\u0c1a\u0c3e\u0c30 \u0c38\u0c47\u0c35 \u0c15\u0c47\u0c02\u0c26\u0c4d\u0c30\u0c02</string>
+    <string name="action_settings">\u0c38\u0c46\u0c1f\u0c4d\u0c1f\u0c3f\u0c02\u0c17\u0c4d\u0c38\u0c4d </string>
+    <string name="title_activity_main">GEMINI-V3</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <string-array name="language_array">
+        <item>English</item>
+        <item>हिंदी</item>
+        <item>ગુજરાતી</item>
+        <item>मराठी</item>
+        <item>ಕನ್ನಡ </item>
+        <item>മലയാളം</item>
+        <item>தமிழ்</item>
+        <item>తెలుగు</item>
+        <item>ଓଡ଼ିଆ</item>
+        <item>বাঙ্গালী</item>
+    </string-array>
+    <string-array name="region_array">
+        <item>గుజరాత్</item>
+        <item>మహారాష్ట్ర</item>
+        <item>గోవా</item>
+        <item>కర్ణాటక</item>
+        <item>కేరళ</item>
+        <item>దక్షిణ  తమిళనాడు</item>
+        <item>ఉత్తర తమిళనాడు</item>
+        <item>దక్షిణ ఆంధ్ర</item>
+        <item>ఉత్తర ఆంధ్ర</item>
+        <item>ఒడిష</item>
+        <item>పచ్చిమ బెంగాల్</item>
+        <item>అండమాన్</item>
+        <item>నికోబార్</item>
+        <item>లక్షద్వీప్</item>
+        <item>తూర్పు తీరం</item>
+        <item>పడమర తీరం</item>
+        <item>అఖిల భారతదేశం</item>
+    </string-array>
+
+
+
+
+    <!--osfcard items-->
+    <string name="osf_advice_alert">మత్స్యకారులు సముద్రం లోనికి  వెళ్ళునపుడు జాగ్రత్తగా వ్యవహరించవలెనని సూచించటమైనది</string>
+    <string name="osf_advice_warning">మత్స్యకారులు సముద్రం లోనికి వెళ్లరాదని  సూచించటమైనది</string>
+
+    <!--direction names-->
+    <string name="n">ఉత్తరం </string>
+    <string name="nne">ఉత్తర ఈశాన్యం</string>
+    <string name="ne">ఈశాన్యం </string>
+    <string name="ene">తూర్పు  ఈశాన్యం</string>
+    <string name="e">తూర్పు </string>
+    <string name="ese">తూర్పు ఆగ్నేయం </string>
+    <string name="se">ఆగ్నేయం </string>
+    <string name="sse">దక్షిణ  ఆగ్నేయం</string>
+    <string name="s">దక్షిణం </string>
+    <string name="ssw">దక్షిణ నైరుతి </string>
+    <string name="sw">నైరుతి</string>
+    <string name="wsw">పశ్చిమ  నైరుతి</string>
+    <string name="w">పడమర </string>
+    <string name="wnw">పశ్చిమ వాయువ్యం </string>
+    <string name="nw">వాయువ్యం</string>
+    <string name="nnw">ఉత్తర  వాయువ్యం</string>
+
+
+
+    <string name="kilometers">\u0c15\u0c3f\u0c32\u0c4b\u0c2e\u0c40\u0c1f\u0c30\u0c4d</string>
+
+    <string name="kms">కిమీ</string>
+    <string name="NM">\u0c28\u002e\u0c0e\u0c02</string>
+    <string name="Meters">మీటర్లు</string>
+    <string name="m">మీ</string>
+    <string name="Feet">\u0c05\u0c21\u0c41\u0c17\u0c41\u0c32\u0c41</string>
+    <string name="cmps">సెంటీమీటర్లు ప్రతి సెకనుకు</string>
+    <string name="centimeters_per_sec">సెంటీమీటర్లు ప్రతి సెకనుకు</string>
+
+
+
+    <string name="cyclone_advice">మత్స్యకారులు వేటకు వెళ్లరాదని సూచించడమైనది.</string>
+
+
+
+
+    <string name="Kmph"> \u0c15\u0c3f\u0c32\u0c4b\u0c2e\u0c40\u0c1f\u0c30\u0c4d\u0c32\u0c41 \u0c2a\u0c4d\u0c30\u0c24\u0c3f \u0c17\u0c02\u0c1f\u0c15\u0c41</string>
+    <string name="Cmph">\u0c38\u0c46\u0c02\u0c1f\u0c40\u0c2e\u0c40\u0c1f\u0c30\u0c4d\u0c32\u0c41 \u0c2a\u0c4d\u0c30\u0c24\u0c3f \u0c17\u0c02\u0c1f\u0c15\u0c41</string>
+    <string name="Potential_Fishing_Zone"><u>\u0c1a\u0c47\u0c2a\u0c32\u0c41 \u0c38\u0c2e\u0c43\u0c26\u0c4d\u0c26\u0c3f\u0c17\u0c3e \u0c32\u0c2c\u0c3f\u0c02\u0c1a\u0c41 \u0c2a\u0c4d\u0c30\u0c26\u0c47\u0c36\u0c2e\u0c41</u></string>
+    <string name="High_Wave_Alert"><u>\u0c2d\u0c3e\u0c30\u0c40 \u0c05\u0c32\u0c32 \u0c39\u0c46\u0c1a\u0c4d\u0c1a\u0c30\u0c3f\u0c15</u></string>
+    <string name="High_Wave_warning"><u>\u0c05\u0c32\u0c32 \u0c09\u0c26\u0c4d\u0c30\u0c3f\u0c15\u0c4d\u0c24\u0c24 \u0c39\u0c46\u0c1a\u0c4d\u0c1a\u0c30\u0c3f\u0c15 </u></string>
+    <string name="tsunami_alert"><u>\u0c2e\u0c41\u0c02\u0c26\u0c38\u0c4d\u0c24\u0c41 \u0c38\u0c41\u0c28\u0c3e\u0c2e\u0c40 \u0c39\u0c46\u0c1a\u0c4d\u0c1a\u0c30\u0c3f\u0c15</u></string>
+    <string name="cardview_cyclone_title"><u>తుఫాను సూచన</u></string>
+    <string name="date">\u0c24\u0c47\u0c26\u0c40  </string>
+    <string name="region">\u0c2a\u0c4d\u0c30\u0c26\u0c47\u0c36\u0c02 </string>
+    <string name="expiry">\u0c17\u0c21\u0c41\u0c35\u0c41</string>
+    <string name="pfz_locations">\u0c2a\u0c4d \u0c2a\u0c4d \u0c1c\u0c4d  \u0c32\u0c4a\u0c15\u0c47\u0c37\u0c28\u0c4d\u0c38\u0c4d </string>
+    <string name="reach_to_the_nearest_pfz_location">\u0c2a\u0c4d \u0c2a\u0c4d \u0c1c\u0c4d \u0c2f\u0c4a\u0c15\u0c4d\u0c15 \u0c38\u0c2e\u0c40\u0c2a \u0c35\u0c3f\u0c35\u0c30\u0c3e\u0c32\u0c41 </string>
+    <string name="reach_to_the_nearest_tuna_location">\u0c38\u0c2e\u0c40\u0c2a\u0c2e\u0c41\u0c32\u0c4b\u0c28\u0c3f \u0c1f\u0c41\u0c28 \u0c32\u0c4a\u0c15\u0c47\u0c37\u0c28\u0c4d</string>
+    <string name="pfz_distance_header"><u>\u0c26\u0c42\u0c30\u0c02 </u></string>
+    <string name="pfz_angle_header"><u>దిశ</u></string>
+    <string name="pfz_depth_header"><u>\u0c38\u0c2e\u0c41\u0c26\u0c4d\u0c30\u0c2a\u0c41  \u0c32\u0c4b\u0c24\u0c41 </u></string>
+    <string name="tsunami_advice">\u0c26\u0c2f\u0c1a\u0c47\u0c38\u0c3f \u0c24\u0c40\u0c30\u0c02 \u0c28\u0c41\u0c02\u0c21\u0c3f \u0c26\u0c42\u0c30\u0c02\u0c17\u0c3e \u0c09\u0c02\u0c21\u0c02\u0c21\u0c3f\u002e \u0c0e\u0c24\u0c48\u0c28 \u0c2a\u0c4d\u0c30\u0c26\u0c47\u0c36\u0c2e\u0c41\u0c32\u0c41 \u0c35\u0c46\u0c33\u0c4d\u0c33\u0c02\u0c21\u0c3f\u002e </string>
+    <string name="cyclone_category">\u0c24\u0c41\u0c2b\u0c3e\u0c28\u0c41 \u0c35\u0c3f\u0c2d\u0c3e\u0c17\u0c02 </string>
+    <string name="cyclone_name">\u0c24\u0c41\u0c2b\u0c3e\u0c28\u0c41 \u0c2a\u0c47\u0c30\u0c41 </string>
+    <string name="cyclone_location">\u0c24\u0c41\u0c2b\u0c3e\u0c28\u0c41 \u0c2a\u0c4d\u0c30\u0c26\u0c47\u0c36\u0c02</string>
+    <string name="pfz_drawer_title">\u0c1a\u0c47\u0c2a\u0c32\u0c41 \u0c38\u0c2e\u0c43 \u0c26\u0c4d\u0c26\u0c3f \u0c17\u0c3e \u0c32\u0c2c\u0c3f\u0c02\u0c1a\u0c41 \u0c2a\u0c4d\u0c30\u0c26\u0c47\u0c36\u0c2e\u0c41</string>
+    <string name="osf_drawer_title">\u0c38\u0c2e\u0c41\u0c26\u0c4d\u0c30 \u0c38\u0c4d\u0c25\u0c3f\u0c24\u0c3f \u0c38\u0c42\u0c1a\u0c28</string>
+    <string name="cyclone_drawer_title">\u0c24\u0c41\u0c2b\u0c3e\u0c28\u0c41 \u0c39\u0c46\u0c1a\u0c4d\u0c1a\u0c30\u0c3f\u0c15</string>
+    <string name="tsunami_drawer_title">\u0c2e\u0c41\u0c02\u0c26\u0c38\u0c4d\u0c24\u0c41 \u0c38\u0c41\u0c28\u0c3e\u0c2e\u0c40 \u0c39\u0c46\u0c1a\u0c4d\u0c1a\u0c30\u0c3f\u0c15</string>
+    <string name="data_source_usb">\u0c2f\u0c42\u002e\u0c38\u0c4d\u002e\u0c2c\u0c3f </string>
+    <string name="data_source_bluetooth">\u0c2c\u0c4d\u0c32\u0c42 \u0c1f\u0c42\u0c24\u0c4d </string>
+    <string name="data_connection_source">\u0c15\u0c28\u0c46\u0c15\u0c4d\u0c37\u0c28\u0c4d \u0c2f\u0c4a\u0c15\u0c4d\u0c15 \u0c2e\u0c41\u0c32\u0c4d\u0c32\u0c02 </string>
+    <string name="current_location"><u>\u0c2a\u0c4d\u0c30\u0c38\u0c4d\u0c24\u0c41\u0c24 \u0c2a\u0c4d\u0c30\u0c26\u0c47\u0c36\u0c02</u></string>
+    <string name="current_location_value"></string>
+    <string name="current_intl_location"><u>\u0c05\u0c02\u0c24\u0c30\u0c4d\u0c1c\u0c3e\u0c24\u0c40\u0c2f \u0c38\u0c30\u0c3f\u0c39\u0c26\u0c4d\u0c26\u0c41 </u></string>
+    <string name="datastatus">\u0c38\u0c2e\u0c3e\u0c1a\u0c3e\u0c30\u0c02 \u0c38\u0c4d\u0c35\u0c40\u0c15\u0c30\u0c3f\u0c02\u0c1a\u0c1f\u0c02  </string>
+    <string name="constatus">\u0c09\u0c2a\u0c17\u0c4d\u0c30\u0c39\u0c02 \u0c15\u0c28\u0c46\u0c15\u0c4d\u0c1f\u0c4d \u0c1a\u0c47\u0c2f\u0c2c\u0c21\u0c3f\u0c02\u0c26\u0c3f </string>
+    <string name="wave_height_nwave_direction"><u>\u0c05\u0c32\u0c32 \u0c0e\u0c24\u0c4d\u0c24\u0c41 \u005c\u006e \u0c05\u0c32\u0c32 \u0c26\u0c3f\u0c36 </u></string>
+    <string name="current_speed_ncurrent_direction"><u>\u0c2a\u0c4d\u0c30\u0c35\u0c3e\u0c39 \u0c35\u0c47\u0c17\u0c02 \u005c\u006e \u0c2a\u0c4d\u0c30\u0c35\u0c3e\u0c39 \u0c26\u0c3f\u0c36   </u></string>
+    <string name="wind_speed_nwind_direction"><u>\u0c17\u0c3e\u0c32\u0c3f \u0c35\u0c47\u0c17\u0c02 \u005c\u006e \u0c17\u0c3e\u0c32\u0c3f \u0c26\u0c3f\u0c36 </u></string>
+    <string name="earthquake_location">\u0c2d\u0c42\u0c15\u0c02\u0c2a \u0c2a\u0c4d\u0c30\u0c26\u0c47\u0c36\u0c02</string>
+    <string name="earthquake_intensity">\u0c2d\u0c42\u0c15\u0c02\u0c2a \u0c24\u0c40\u0c35\u0c4d\u0c30\u0c24 </string>
+    <string name="earthquake_origintime">\u0c2d\u0c42\u0c15\u0c02\u0c2a \u0c06\u0c35\u0c3f\u0c30\u0c4d\u0c2d\u0c35\u0c3f\u0c02\u0c1a\u0c3f\u0c28 \u0c38\u0c2e\u0c2f\u0c02</string>
+    <string name="earthquake_depth">\u0c2d\u0c42\u0c15\u0c02\u0c2a \u0c32\u0c4b\u0c24\u0c41 </string>
+    <string name="earthquake_region">\u0c2d\u0c42\u0c15\u0c02\u0c2a \u0c2a\u0c4d\u0c30\u0c26\u0c47\u0c36\u0c02 </string>
+    <string name="identified_at">\u0c17\u0c41\u0c30\u0c4d\u0c24\u0c3f\u0c02\u0c1a\u0c2c\u0c21\u0c3f\u0c28\u0c26\u0c3f  </string>
+    <string name="maximum_current_speed">గరిష్ట ప్రవాహ వేగం</string>
+    <string name="maximum_wave_height">గరిష్ట అలల ఎత్తు</string>
+    <string name="maximum_wind_speed">గరిష్ట గాలి వేగం</string>
+    <string name="international_boundary_outside">\u0c2c\u0c2f\u0c1f </string>
+    <string name="international_boundary_inside">\u0c32\u0c4b\u0c2a\u0c32 </string>
+    <string name="view_details">\u0c35\u0c3f\u0c35\u0c30\u0c3e\u0c32\u0c28\u0c41 \u0c35\u0c40\u0c15\u0c4d\u0c37\u0c3f\u0c02\u0c1a\u0c02\u0c21\u0c3f </string>
+    <string name="home">\u0c39\u0c4b\u0c2e\u0c4d </string>
+    <string name="select_language">\u0c2d\u0c3e\u0c37\u0c28\u0c41 \u0c0e\u0c02\u0c1a\u0c41\u0c15\u0c4b\u0c02\u0c21\u0c3f </string>
+    <string name="select_regions">\u0c2a\u0c4d\u0c30\u0c3e\u0c02\u0c24\u0c3e\u0c28\u0c4d\u0c28\u0c3f\u0c0e\u0c02\u0c1a\u0c41\u0c15\u0c4b\u0c02\u0c21\u0c3f </string>
+    <string name="feed_back">\u0c38\u0c4d\u0c2a\u0c02\u0c26\u0c28 </string>
+    <string name="view_on_map">\u0c2e\u0c4d\u0c2f\u0c3e\u0c2a\u0c4d \u0c32\u0c4b \u0c35\u0c40\u0c15\u0c4d\u0c37\u0c3f\u0c02\u0c1a\u0c02\u0c21\u0c3f  </string>
+    <string name="start_journey">\u0c2a\u0c4d\u0c30\u0c2f\u0c3e\u0c23\u0c02 \u0c2a\u0c4d\u0c30\u0c3e\u0c30\u0c02\u0c2d\u0c3f\u0c02\u0c1a\u0c02\u0c21\u0c3f</string>
+    <string name="click_to_connect_to_navshare">జెమినీ అనుసంధానం కొరకు క్లిక్ చెయ్యండి</string>
+    <string name="please_connect_to_device">దయచేసి మీ ఫోన్ ను  NAVSHARE కు అనుసంధానం చెయ్యండి</string>
+    <string name="help">సహాయం</string>
+    <string name="report_naccident">ప్రమాదాన్ని చిత్రీకరించండి</string>
+    <string name="market_information">మత్స్య విక్రయ ధర </string>
+    <string name="navigation">పయనం</string>
+    <string name="Navigate_To_Specific_Location">కావలసిన ప్రదేశానికి పయనించండి</string>
+    <string name="Hint_Navigate_To_Specific_Location">మీరు చేరుకోవాల్సిన అక్షంసము మరియు రేఖామాసము నమోదు చెయ్యండి (ఉదాహరణకు 9.1056,66.5443)</string>
+    <string name="internationalboundary">భారత దేశ సరిహద్దులలోపల ఉన్నారు</string>
+
+
+    <string name="latitude"><u>అక్షాంశం</u></string>
+    <string name="longitude"><u>రేఖాంశం</u></string>
+    <string name="photo">Take Photo</string>
+
+
+
+
+    <!--cyclone names-->
+    <string name="Vayu"> వాయు  </string>
+    <string name="Hikaa">హికా </string>
+    <string name="Kyarr">క్యార్ </string>
+    <string name="Maha">మహా </string>
+    <string name="Bulbul">బుల్బుల్ </string>
+    <string name="Pawan">పవన్ </string>
+    <string name="Amphan">అంఫాన్ </string>
+
+
+
+
+    <string name="no">లేదు/కాదు</string>
+    <string name="yes">అవును</string>
+    <string name="hours">గంటలు</string>
+
+    <string name="speed"><u>వేగం</u></string>
+    <string name="estimated_time"><u>అంచనా వేయబడిన సమయం</u></string>
+    <string name="nearest_landpoint">సమీప ప్రదేశం</string>
+    <string name="you_are_here"><u>మీరు ఇక్కడ ఉన్నారు</u></string>
+    <string name="read_more">మరిన్ని వివరములు</string>
+    <string name="tablayout_messages_heading">సందేశాలను</string>
+    <string name="tablayout_compass_heading">దీక్షుచి</string>
+    <string name="tablayout_gps_heading">జిపీస్</string>
+
+
+    <string name="select_market_to_see_fish_prices"><u>ధరలు తెలుసుకోటానికి మార్కెట్ ను ఎంచుకోండి </u></string>
+    <string name="cost_per_kg">ధర (కేజీ కి)</string>
+    <string name="fish_type">చేపల రకం</string>
+    <string name="emergency_contact_numbers">అత్యవసర సంప్రదింపు నంబర్లు</string>
+    <string name="police">పోలీస్ :</string>
+    <string name="ambulance">అంబులెన్స్ :</string>
+    <string name="strong_wind_alert">బలమైన గాలుల హెచ్చరిక</string>
+    <string name="cyclone_short">తూఫాను</string>
+    <string name="tsunami_short">Tsunami</string>
+    <string name="high_wave_short">High Wave</string>
+    <string name="fishing_short">Fishing</string>
+    <string name="name">పేరు</string>
+    <string name="email">ఇమెయిల్</string>
+    <string name="password">పాస్వర్డ్</string>
+    <string name="boat_size">నావ వైశాల్యం</string>
+    <string name="crew_size">మత్స్యకారుల సంఖ్య</string>
+    <string name="general_public">సాధారణ ప్రజానీకం</string>
+    <string name="fishermen">మత్స్యకారులు</string>
+    <string name="advanced">ఇతర వినియోగదారులు</string>
+    <string name="create_account">ఖాతాను సృష్టించండి</string>
+    <string name="phone_number">ఫోను నంబరు</string>
+    <string name="invalid_name">పేరు సరైనది కాదు</string>
+    <string name="invalid_email">ఇమెయిల్ సరైనది కాదు</string>
+    <string name="invalid_phone">ఫోన్ నెంబర్ సరైనది కాదు</string>
+    <string name="proceed_without_registration">రిజిస్ట్రేషన్ చేయకుండ ముందుకు సాగండి</string>
+    <string name="international_waters">International</string>
+    <string name="bangladesh_waters">Bangladesh</string>
+    <string name="pakistan_waters">Pakistan</string>
+    <string name="srilanka_waters">Srilanka</string>
+    <string name="bt_not_enabled_leaving">bt_not_enabled_leaving</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="camera">Accident Picture</string>
+    <string name="close">Close</string>
+    <string name="connect">Connect a device</string>
+    <string name="gujrati">"ગુજરાતી "</string>
+    <string name="hindi">"हिंदी  "</string>
+    <string name="malayalam">മലയാളം</string>
+    <string name="marathi">"मराठी  "</string>
+    <string name="markdangerzone">Mark Location as Danger Zone</string>
+    <string name="markrockybottom">Mark Location as Rocky Bottom</string>
+    <string name="tamil">"தமிழ்  "</string>
+    <string name="update_password">Save Route</string>
+    <string name="usecurrentlatlon">Use Present Latitude &amp; Longitude</string>
+
+
+</resources>

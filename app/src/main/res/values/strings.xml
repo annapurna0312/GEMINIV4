@@ -1,0 +1,320 @@
+<resources>
+    <string name="app_name">GEMINI</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="click_to_connect_to_navshare">Connect GEMINI Device </string>
+
+
+    <!--  BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <!-- Options Menu -->
+    <string name="connect">Connect a device</string>
+    <string name="discoverable">Make discoverable</string>
+
+    <!--direction names-->
+    <string name="n">North</string>
+    <string name="nne">North North East</string>
+    <string name="ne">North East</string>
+    <string name="ene">East North East</string>
+    <string name="e">East</string>
+    <string name="ese">East South East</string>
+    <string name="se">South East</string>
+    <string name="sse">South South East</string>
+    <string name="s">South</string>
+    <string name="ssw">South South West</string>
+    <string name="sw">South West</string>
+    <string name="wsw">West South West</string>
+    <string name="w">West</string>
+    <string name="wnw">West North West</string>
+    <string name="nw">North West</string>
+    <string name="nnw">North North West</string>
+    <string name="speed_heading"><u>Speed</u></string>
+    <string name="direction_heading"><u>Direction</u></string>
+
+    <string name="select_language">Select Language</string>
+
+    <!--Navigation drawer Items-->
+    <string name="incois_title">INDIAN NATIONAL CENTER \nFOR \nOCEAN INFORMATION SERVICES</string>
+    <string name="market_information">Market Information</string>
+    <string name="feed_back">Feed Back</string>
+    <string name="report_naccident">Report Accident</string>
+    <string name="help">Help</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+
+    <string-array name="language_array">
+        <item>English</item>
+        <item>हिंदी</item>
+        <item>ગુજરાતી</item>
+        <item>मराठी</item>
+        <item>ಕನ್ನಡ </item>
+        <item>മലയാളം</item>
+        <item>தமிழ்</item>
+        <item>తెలుగు</item>
+        <item>ଓଡ଼ିଆ</item>
+        <item>বাঙ্গালী</item>
+    </string-array>
+
+    <string name="english">English</string>
+    <string name="hindi">हिंदी  </string>
+    <string name="gujrati">ગુજરાતી </string>
+    <string name="marathi">मराठी  </string>
+    <string name="kannada">ಕನ್ನಡ  </string>
+    <string name="malayalam">മലയാളം</string>
+    <string name="tamil">தமிழ்  </string>
+    <string name="telugu">తెలుగు  </string>
+    <string name="odiya">ଓଡ଼ିଆ  </string>
+    <string name="bengali">বাংলা  </string>
+
+    <string-array name="region_array_en">
+        <item>Gujarat</item>
+        <item>Maharashtra</item>
+        <item>Goa</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>SouthTamilNadu</item>
+        <item>NorthTamilNadu</item>
+        <item>SouthAndhraPradesh</item>
+        <item>NorthAndhraPradesh</item>
+        <item>Odisha</item>
+        <item>WestBengal</item>
+        <item>Andaman</item>
+        <item>Nicobar</item>
+        <item>Lakshadweep</item>
+        <item>EastCoast</item>
+        <item>WestCoast</item>
+        <item>ALLINDIA</item>
+    </string-array>
+
+    <string-array name="region_array">
+        <item>Gujarat</item>
+        <item>Maharashtra</item>
+        <item>Goa</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>SouthTamilNadu</item>
+        <item>NorthTamilNadu</item>
+        <item>SouthAndhraPradesh</item>
+        <item>NorthAndhraPradesh</item>
+        <item>Odisha</item>
+        <item>WestBengal</item>
+        <item>Andaman</item>
+        <item>Nicobar</item>
+        <item>Lakshadweep</item>
+        <item>EastCoast</item>
+        <item>WestCoast</item>
+        <item>ALLINDIA</item>
+    </string-array>
+
+
+    <string-array name="region_array_registration">
+        <item>Gujarat</item>
+        <item>Maharashtra</item>
+        <item>Goa</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>SouthTamilNadu</item>
+        <item>NorthTamilNadu</item>
+        <item>SouthAndhraPradesh</item>
+        <item>NorthAndhraPradesh</item>
+        <item>Odisha</item>
+        <item>WestBengal</item>
+        <item>Andaman</item>
+        <item>Nicobar</item>
+        <item>Lakshadweep</item>
+    </string-array>
+
+    <string-array name="cyclonecategories">
+        <item>Low Pressure</item>
+        <item>Depression</item>
+        <item>Deep Depression </item>
+        <item>Cyclonic Storm </item>
+        <item>Severe Cyclonic Storm </item>
+        <item>Very Severe Cyclonic Storm </item>
+        <item>Extremely Severe Cyclonic Storm</item>
+        <item>Super Cyclonic Storm </item>
+    </string-array>
+
+    <!--Measuring units-->
+    <string name="kms">kms</string>
+    <string name="NM">nm</string>
+    <string name="Meters">meters</string>
+    <string name="m">m</string>
+    <string name="Feet">\u0c05\u0c21\u0c41\u0c17\u0c41\u0c32\u0c41</string>
+    <string name="cmps">cmps</string>
+    <string name="centimeters_per_sec">centimeters per second</string>
+    <string name="Kmph"> kmph </string>
+    <string name="kilometers">kilometers</string>
+
+
+    <string name="expiry">Expiry\t:</string>
+    <string name="region">Region\t:</string>
+    <string name="latitude"><u>Latitude</u></string>
+    <string name="longitude"><u>Longitude</u></string>
+    <string name="pfz_angle_header"><u>Angle</u></string>
+    <string name="pfz_depth_header"><u>Ocean Depth</u></string>
+    <string name="pfz_distance_header"><u>Distance </u></string>
+
+    <!--services headings-->
+    <string name="High_Wave_warning"><u>High Wave Warning</u></string>
+    <string name="High_Wave_Alert"><u>High Wave Alert</u></string>
+    <string name="tsunami_alert"><u>Tsunami Alert</u></string>
+    <string name="cardview_cyclone_title"><u>Cyclone Warning</u></string>
+    <string name="Potential_Fishing_Zone"><u>Potential Fishing Zone Advisory</u></string>
+
+
+    <!--osfcard items-->
+    <string name="osf_advice_alert">Fishermen are advised to be cautious while venturing into sea.</string>
+    <string name="osf_advice_warning">Fishermen are advised not to venture into sea.</string>
+    <string name="cyclone_advice">Come Back to Nearest land point immediately</string>
+
+    <!--tsunami card items-->
+    <string name="earthquake_location">EarthQuake Location :</string>
+    <string name="earthquake_intensity">EarthQuake Intensity\t:\t</string>
+    <string name="earthquake_origintime">EarthQuake Origintime\t:\t</string>
+    <string name="earthquake_depth">EarthQuake Depth :</string>
+    <string name="earthquake_region">EarthQuake Region :</string>
+    <string name="tsunami_advice">Public should be advised to move in-land towards higher grounds.\nVessels should move into deep ocean. </string>
+
+
+    <!--cyclone card items-->
+    <string name="identified_at">Identified At :</string>
+    <string name="cyclone_category">Cyclone Category :</string>
+    <string name="cyclone_name">Cyclone Name :</string>
+    <string name="cyclone_location">Cyclone Location :</string>
+    <string name="maximum_current_speed">Current Speed (MAX):</string>
+    <string name="maximum_wave_height">Wave Height (MAX):</string>
+    <string name="maximum_wind_speed">Wind Speed (MAX):</string>
+
+
+    <!--cyclone names-->
+    <string name="Vayu">Vayu</string>
+    <string name="Hikaa">Hikaa</string>
+    <string name="Kyarr">Kyarr</string>
+    <string name="Maha">Maha</string>
+    <string name="Bulbul">Bulbul</string>
+    <string name="Pawan">Pawan</string>
+    <string name="Amphan">Amphan</string>
+
+
+    <string name="close">Close</string>
+    <string name="view_details">View Details</string>
+    <string name="view_on_map">View On Map</string>
+    <string name="no">no</string>
+    <string name="yes">yes</string>
+    <string name="section_1"><u>Section 1</u></string>
+    <string name="section_2"><u>Section 2</u></string>
+    <string name="section_3"><u>Section 3</u></string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="hours">hours</string>
+    <string name="speed"><u>Speed</u></string>
+    <string name="estimated_time"><u>Estimated Time</u></string>
+    <string name="date">Date </string>
+
+
+    <string name="select_market_to_see_fish_prices"><u>Select Market to See Fish Prices</u></string>
+    <string name="cost_per_kg">COST (PER KG)</string>
+    <string name="fish_type">FISH TYPE</string>
+
+
+    <string name="nearest_landpoint">Nearest Land Point</string>
+    <string name="you_are_here"><u>You are Here</u></string>
+    <string name="read_more">Read More</string>
+    <string name="tablayout_messages_heading">Messages</string>
+    <string name="tablayout_compass_heading">Compass</string>
+    <string name="tablayout_gps_heading">GPS</string>
+    <string name="emergency_contact_numbers">Emergency Contact Numbers</string>
+    <string name="police">Police :</string>
+    <string name="ambulance">Ambulance :</string>
+    <string name="strong_wind_alert">STRONG WIND ALERT</string>
+    <string name="cyclone_short">Cyclone</string>
+    <string name="tsunami_short">Tsunami</string>
+    <string name="high_wave_short">High Wave</string>
+    <string name="fishing_short">Fishing</string>
+
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="boat_size">Boat Size</string>
+    <string name="crew_size">Crew Size</string>
+    <string name="general_public">General Public</string>
+    <string name="fishermen">Fishermen</string>
+    <string name="advanced">Advanced</string>
+    <string name="create_account">Create Account</string>
+    <string name="phone_number">phone number</string>
+    <string name="invalid_name">invalid name</string>
+    <string name="invalid_email">invalid email id</string>
+    <string name="invalid_phone">invalid phone number</string>
+    <string name="proceed_without_registration">Proceed Without Registration</string>
+
+
+    <string name="international_waters">International Waters</string>
+    <string name="srilanka_waters">Srilankan Waters</string>
+    <string name="pakistan_waters">Pakistan Waters</string>
+    <string name="bangladesh_waters">Bangladesh Waters</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+    <string name="usecurrentlatlon">"Use Present Latitude &amp; Longitude"</string>
+
+    <string name="showsunkenships">Show Sunken Ships</string>
+    <string name="showrockybottom">Show Rocky Bottom</string>
+    <string name="showpfz">Show PFZ Locations</string>
+
+    <string name="markdangerzone">Mark Location as Danger Zone</string>
+    <string name="markrockybottom">Mark Location as Rocky Bottom</string>
+    <string name="sunkenship">Mark Location as Sunken Ship</string>
+    <string name="camera">Accident Picture</string>
+    <string name="save">Save PFZ Location</string>
+    <string name="update_password">Save Route</string>
+
+
+    <string name="home_fragmen_title_pfz_osf">PFZ/OSF</string>
+    <string name="home_fragmen_title_High_Wave_Alert">High Wave Alert</string>
+    <string name="home_fragmen_title_tsunami">Tsunami</string>
+    <string name="home_fragmen_title_cyclone">Cyclone</string>
+    <string name="home_fragmen_title_gps">GPS</string>
+    <string name="home_fragmen_title_sarat">SARAT</string>
+    <string name="home_fragmen_title_fish_market">Fish Market</string>
+    <string name="home_fragmen_title_feedback">Feedback</string>
+    <string name="home_fragmen_title_settings">Settings</string>
+
+
+    <string-array name="usertype">
+        <item>Mechanized Boat</item>
+        <item>Motor Boat</item>
+        <item>Engine Boat</item>
+    </string-array>
+    <string name="Cmph">Cmps</string>
+    <string name="Feet">Feet</string>
+    <string name="Hint_Navigate_To_Specific_Location">Hint_Navigate_To_Specific_Location</string>
+</resources>

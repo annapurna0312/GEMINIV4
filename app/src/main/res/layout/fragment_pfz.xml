@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.pfz.PFZFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Toolbar
+                android:id="@+id/app_bar"
+                style="@style/Widget.App.Toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:navigationIcon="@drawable/menu"
+                android:fitsSystemWindows="true"
+                android:titleTextColor="#FFFFFF"
+                app:title="@string/app_name">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/flsselection_pfzfragment">
+                    <Spinner
+                        android:id="@+id/flcspinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:overlapAnchor="false"
+                        android:spinnerMode="dropdown"/>
+                </LinearLayout>
+
+            </Toolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+        <!--<org.osmdroid.views.MapView android:id="@+id/pfzmap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />-->
+
+       <!-- <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray" />-->
+
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/Widget.MaterialComponents.CardView"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/CardBackgroundColor"
+            android:outlineSpotShadowColor="@color/design_default_color_primary"
+            android:elevation="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DAE8FC"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/pfztableview_textsize"
+                        android:fontFamily="sans-serif"
+                        android:text="Latitude" />
+
+                    <TextView
+                        android:id="@+id/lat"
+                        style="@style/TextAppearance.MaterialComponents.Headline6"
+                        android:textSize="@dimen/pfztableview_textsize"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="--" />
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/pfztableview_textsize"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif"
+                        android:text="Depth" />
+
+                    <TextView
+                        android:id="@+id/depth"
+                        style="@style/TextAppearance.MaterialComponents.Headline6"
+                        android:textSize="@dimen/pfztableview_textsize"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="--" />
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/pfztableview_textsize"
+                        android:layout_gravity="end"
+                        android:fontFamily="sans-serif"
+                        android:text="Longitude" />
+
+                    <TextView
+                        android:id="@+id/lon"
+                        style="@style/TextAppearance.MaterialComponents.Headline6"
+                        android:textSize="@dimen/pfztableview_textsize"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:text="--" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/flcname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/pfztableview_textsize"
+            android:text=""/>
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/Widget.MaterialComponents.CardView"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            android:layout_margin="5dp"
+            android:background="#DAE8FC"
+            android:outlineSpotShadowColor="@color/design_default_color_primary"
+            android:elevation="10dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow android:background="#DAE8FC" android:padding="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textAlignment="textEnd"
+                        android:paddingRight="@dimen/min_padding"
+                        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/pfztableview_textsize"
+                        android:text="Distance : " />
+
+                    <TextView
+                        android:id="@+id/distance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="--"
+                        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+                        android:textSize="@dimen/pfztableview_textsize" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textAlignment="textEnd"
+                        android:paddingRight="@dimen/min_padding"
+                        android:textSize="@dimen/pfztableview_textsize"
+                        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+                        android:textColor="#000000"
+                        android:text="Direction : " />
+
+                    <TextView
+                        android:id="@+id/direction"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="--"
+                        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+                        android:textSize="@dimen/pfztableview_textsize" />
+                </TableRow>
+
+            </TableLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/Widget.MaterialComponents.CardView"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            android:layout_margin="5dp"
+            android:background="#DAE8FC"
+            android:outlineSpotShadowColor="@color/design_default_color_primary"
+            android:elevation="10dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow android:background="#DAE8FC" android:padding="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textAlignment="textEnd"
+                        android:paddingRight="@dimen/min_padding"
+                        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/pfztableview_textsize"
+                        android:text="Wave Height (Max) : " />
+
+                    <TextView
+                        android:id="@+id/maxwh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="--"
+                        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+                        android:textSize="@dimen/pfztableview_textsize" />
+
+                </TableRow>
+
+                <TableRow android:background="#DAE8FC" android:padding="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textAlignment="textEnd"
+                        android:paddingRight="@dimen/min_padding"
+                        android:textSize="@dimen/pfztableview_textsize"
+                        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+                        android:textColor="#000000"
+                        android:text="Wind Speed (Max) : " />
+
+                    <TextView
+                        android:id="@+id/maxws"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="--"
+                        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+                        android:textSize="@dimen/pfztableview_textsize" />
+
+                </TableRow>
+
+                <TableRow android:background="#DAE8FC" android:padding="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/pfztableview_textsize"
+                        android:textAlignment="textEnd"
+                        android:paddingRight="@dimen/min_padding"
+                        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+                        android:textColor="#000000"
+                        android:text="Current Speed (Max) : " />
+
+                    <TextView
+                        android:id="@+id/maxcs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="--"
+                        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+                        android:textSize="@dimen/pfztableview_textsize" />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <Button
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pfznavigateusinggagan"
+            android:text="Navigate Using GAGAN">
+        </Button>
+
+    </LinearLayout>
+
+</FrameLayout>

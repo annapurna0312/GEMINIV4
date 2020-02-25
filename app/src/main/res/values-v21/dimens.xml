@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_corner_radius">10dp</dimen>
+    <dimen name="gps_currentlocation_ll">10dp</dimen>
+    <dimen name="pfztableview_textsize">22sp</dimen>
+    <dimen name="home_menu_width">90dp</dimen>
+    <dimen name="home_menu_height">90dp</dimen>
+    <dimen name="home_grid_row_padding">20dp</dimen>
+</resources>

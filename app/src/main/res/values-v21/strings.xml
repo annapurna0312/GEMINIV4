@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pfz_osf">PFZ/OSF</string>
+    <string name="home_fragmen_title_tsunami">Tsunami</string>
+    <string name="home_fragmen_title_cyclone">Cyclone</string>
+    <string name="home_fragmen_title_gps">GPS</string>
+    <string name="home_fragmen_title_sarat">SARAT</string>
+    <string name="home_fragmen_title_fish_market">Fish Market</string>
+    <string name="home_fragmen_title_feedback">Feedback</string>
+    <string name="home_fragmen_title_settings">Settings</string>
+</resources>
