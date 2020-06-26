@@ -1,9 +1,13 @@
 package com.example.geminiv4.ui.home;
 
+import android.Manifest;
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
+import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.graphics.Camera;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -19,6 +23,8 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.lifecycle.ViewModelProviders;
@@ -38,6 +44,15 @@ import com.example.geminiv4.ui.osf.OSFFragment;
 import com.example.geminiv4.ui.pfz.PFZFragment;
 import com.example.geminiv4.ui.sarat.SARATFragment;
 
+import static android.Manifest.permission.ACCESS_NETWORK_STATE;
+import static android.Manifest.permission.ACCESS_WIFI_STATE;
+import static android.Manifest.permission.CALL_PHONE;
+import static android.Manifest.permission.CAMERA;
+import static android.Manifest.permission.INTERNET;
+import static android.Manifest.permission.READ_EXTERNAL_STORAGE;
+import static android.Manifest.permission.READ_PHONE_STATE;
+import static android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
+
 public class HomeFragment extends Fragment{
 
     public static String TAG = "HomeFragment";
@@ -48,6 +63,15 @@ public class HomeFragment extends Fragment{
     // Intent request codes
     private static final int REQUEST_CONNECT_DEVICE = 1;
     private static final int REQUEST_ENABLE_BT = 2;
+
+    private static final int CAMERA_REQUEST_CODE = 3;
+    private static final int NETWORK_REQUEST_CODE = 4;
+    private static final int WIFI_REQUEST_CODE = 5;
+    private static final int READPHONE_REQUEST_CODE = 6;
+    private static final int WRITE_EXTERNAL_STORAGE_REQUEST_CODE=7;
+    private static final int READ_EXTERNAL_STORAGE_REQUEST_CODE=8;
+    private static final int CALL_PHONE_REQUEST_CODE=9;
+    private static final int INTERNET_REQUEST_CODE = 10;
 
     private BluetoothChatService mChatService = null;
     private ImageView mSendButton;
@@ -169,6 +193,140 @@ public class HomeFragment extends Fragment{
             }
         });
 
+        //all permissions checking done here
+        checkPermissions();
+    }
+
+    private void checkPermissions()
+    {
+        if (ContextCompat.checkSelfPermission(getContext(),CAMERA) != PackageManager.PERMISSION_GRANTED) {
+            requestPermissions(new String[]{CAMERA}, CAMERA_REQUEST_CODE);
+        }
+        else
+        {
+            Toast.makeText(getContext(), "Camera access granted", Toast.LENGTH_LONG).show();
+        }
+
+        if (ContextCompat.checkSelfPermission(getContext(),ACCESS_NETWORK_STATE) != PackageManager.PERMISSION_GRANTED) {
+            requestPermissions(new String[]{ACCESS_NETWORK_STATE}, NETWORK_REQUEST_CODE);
+        }
+        else
+        {
+            Toast.makeText(getContext(), "Network access granted", Toast.LENGTH_LONG).show();
+        }
+
+        if (ContextCompat.checkSelfPermission(getContext(),ACCESS_WIFI_STATE) != PackageManager.PERMISSION_GRANTED) {
+            requestPermissions(new String[]{ACCESS_WIFI_STATE}, WIFI_REQUEST_CODE);
+        }
+        else
+        {
+            Toast.makeText(getContext(), "Wifi access granted", Toast.LENGTH_LONG).show();
+        }
+
+        if (ContextCompat.checkSelfPermission(getContext(),READ_PHONE_STATE) != PackageManager.PERMISSION_GRANTED) {
+            requestPermissions(new String[]{READ_PHONE_STATE}, READPHONE_REQUEST_CODE);
+        }
+        else
+        {
+            Toast.makeText(getContext(), "Read Phone access granted", Toast.LENGTH_LONG).show();
+        }
+
+        if (ContextCompat.checkSelfPermission(getContext(),WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+            requestPermissions(new String[]{WRITE_EXTERNAL_STORAGE}, WRITE_EXTERNAL_STORAGE_REQUEST_CODE);
+        }
+        else
+        {
+            Toast.makeText(getContext(), "Write to external storage access granted", Toast.LENGTH_LONG).show();
+        }
+
+        if (ContextCompat.checkSelfPermission(getContext(),READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+            requestPermissions(new String[]{READ_EXTERNAL_STORAGE}, READ_EXTERNAL_STORAGE_REQUEST_CODE);
+        }
+        else
+        {
+            Toast.makeText(getContext(), "Read external storage access granted", Toast.LENGTH_LONG).show();
+        }
+
+        if (ContextCompat.checkSelfPermission(getContext(),CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+            requestPermissions(new String[]{CALL_PHONE}, CALL_PHONE_REQUEST_CODE);
+        }
+        else
+        {
+            Toast.makeText(getContext(), "Call phone access granted", Toast.LENGTH_LONG).show();
+        }
+
+        if (ContextCompat.checkSelfPermission(getContext(),INTERNET) != PackageManager.PERMISSION_GRANTED) {
+            requestPermissions(new String[]{INTERNET}, INTERNET_REQUEST_CODE);
+        }
+        else
+        {
+            Toast.makeText(getContext(), "Internet access granted", Toast.LENGTH_LONG).show();
+        }
+    }
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (requestCode == CAMERA_REQUEST_CODE) {
+            if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                Toast.makeText(getContext(), "Camera permission granted", Toast.LENGTH_LONG).show();
+            } else {
+                Toast.makeText(getContext(), "Camera permission denied", Toast.LENGTH_LONG).show();
+            }
+        }
+        if (requestCode == NETWORK_REQUEST_CODE) {
+            if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                Toast.makeText(getContext(), "Network access granted", Toast.LENGTH_LONG).show();
+            } else {
+                Toast.makeText(getContext(), "Network access denied", Toast.LENGTH_LONG).show();
+            }
+        }
+
+        if (requestCode == WIFI_REQUEST_CODE) {
+            if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                Toast.makeText(getContext(), "Wifi access granted", Toast.LENGTH_LONG).show();
+            } else {
+                Toast.makeText(getContext(), "Wifi access denied", Toast.LENGTH_LONG).show();
+            }
+        }
+
+        if (requestCode == READPHONE_REQUEST_CODE) {
+            if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                Toast.makeText(getContext(), "Read Phone granted", Toast.LENGTH_LONG).show();
+            } else {
+                Toast.makeText(getContext(), "Read Phone denied", Toast.LENGTH_LONG).show();
+            }
+        }
+
+        if (requestCode == WRITE_EXTERNAL_STORAGE_REQUEST_CODE) {
+            if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                Toast.makeText(getContext(), "Write to external storage access granted", Toast.LENGTH_LONG).show();
+            } else {
+                Toast.makeText(getContext(), "Write to external storage access denied", Toast.LENGTH_LONG).show();
+            }
+        }
+
+        if (requestCode == READ_EXTERNAL_STORAGE_REQUEST_CODE) {
+            if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                Toast.makeText(getContext(), "Read external storage access granted", Toast.LENGTH_LONG).show();
+            } else {
+                Toast.makeText(getContext(), "Read to external storage access denied", Toast.LENGTH_LONG).show();
+            }
+        }
+
+        if (requestCode == CALL_PHONE_REQUEST_CODE) {
+            if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                Toast.makeText(getContext(), "Call phone access granted", Toast.LENGTH_LONG).show();
+            } else {
+                Toast.makeText(getContext(), "Call phone access denied", Toast.LENGTH_LONG).show();
+            }
+        }
+
+        if (requestCode == INTERNET_REQUEST_CODE) {
+            if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                Toast.makeText(getContext(), "Internet access granted", Toast.LENGTH_LONG).show();
+            } else {
+                Toast.makeText(getContext(), "Internet access denied", Toast.LENGTH_LONG).show();
+            }
+        }
     }
 
 
